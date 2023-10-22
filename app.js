@@ -8,7 +8,7 @@ let item = "";
 let btn1 = document.getElementById("btn1");
 let btn2 = document.getElementById("btn2");
 
-tg.MainButton.setText("Вывести информацию по выбранному парку");
+tg.MainButton.setText("Вывести информацию по парку");
 
 btn1.addEventListener("click", function () {
     if (tg.MainButton.isVisible) {
